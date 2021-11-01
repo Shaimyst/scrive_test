@@ -7,9 +7,6 @@ A test for Scrive
 ### Prerequisites
 
 - pipenv
-```sh
-pip install pipenv
-```
 - chrome browser
 - firefox browser
 
