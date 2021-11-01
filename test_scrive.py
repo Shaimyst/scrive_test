@@ -55,7 +55,7 @@ def test_scrive():
         time.sleep(2)
 
         element = driver.find_element(By.XPATH, "/html/body/div/div/div[3]/div[4]")
-        screenshot_name = "screenshots/" + str(driver.name) + "element_screenshot.png"
+        screenshot_name = str(driver.name) + "_element_screenshot.png"
         element.screenshot(screenshot_name)
         # print(dir(driver))
 

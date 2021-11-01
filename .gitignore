@@ -1,5 +1,5 @@
 # result files
-screenshots/
+*_element_screenshot.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
