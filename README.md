@@ -4,6 +4,15 @@ A test for Scrive
 ---
 
 
+### Prerequisites
+
+pipenv
+chrome browser
+firefox browser
+
+---
+
+
 ### Initial Setup
 
 
