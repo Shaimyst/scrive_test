@@ -1,0 +1,27 @@
+
+ID: Bug_02
+
+Summary: 
+Create 2 new tasks with the same name
+
+Preconditions:
+Go to https://todo.scriveqa.com
+
+Browser: 
+Chrome Version 96.0.4664.45 (Official Build) (x86_64)
+
+Steps: 
+1. select display box
+2. type in "duplicate name"
+3. press enter to create the tasks
+4. repeat steps 1-3
+see if duplicate tasks are able to be created
+
+Expected Results:
+Since this is a test, I'll just put in "Duplicate task names should flag an error"
+
+Actual Results:
+both tasks were created
+
+Status:
+Fail

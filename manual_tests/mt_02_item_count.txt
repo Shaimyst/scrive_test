@@ -1,0 +1,27 @@
+
+ID: mt_02_item_count
+
+Summary: Verify item count displays only for shown items
+
+Preconditions:
+Go to https://todo.scriveqa.com
+must have at least one active and one completed task, if not, create them
+
+Browser: 
+Chrome Version 96.0.4664.45 (Official Build) (x86_64)
+
+Steps: 
+In the footer:
+1. select "All"
+2. select "Active"
+3. select "Completed"
+
+Expected Results:
+Item count should change when the number of items shown changes
+
+
+Actual Results:
+Items count doesn't change, even when tasks are removed from view
+
+Status:
+fail

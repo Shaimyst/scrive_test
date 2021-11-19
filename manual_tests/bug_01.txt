@@ -1,0 +1,29 @@
+Bug number: Bug_01
+
+Bug title: new item bug messages
+
+Environment:
+Chrome Version 96.0.4664.45 (Official Build) (x86_64)
+Incognito mode or new session with no cookies.
+
+Severity: 
+low
+
+Bug description:
+A bug message will appear as a new list item.
+
+<see screenshot "Screen Shot Bug_01.png">
+
+Steps to reproduce:
+Open an Incognito chrome browser or chrome browser with no saved data to the page.
+Click "Todos" header
+
+Expected results:
+One of several new items will appear.
+"Hello, where did you just click?"
+"It seems you found a bug."
+"I am nobody."
+"Good catch. Please report it as a bug."
+
+Actual results:
+New item appears "It seems you found a bug."
